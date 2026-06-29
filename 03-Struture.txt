@@ -1,0 +1,21 @@
+//!STRUCTURE / TEMPLATE / BOILERPLATE OF HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body></body>
+</html>
+
+//!Purposes:
+<!DOCTYPE html>   --> Declares the document type and tells the browser that the document uses HTML5.
+
+<html>            --> Root element of the HTML document.
+
+<head>            --> Contains metadata like title, favicon, CSS links, character encoding, viewport settings etc.
+
+<title>           --> Specifies the title shown on the browser tab.
+
+<body>            --> Contains all the visible content displayed on the webpage.
+
+

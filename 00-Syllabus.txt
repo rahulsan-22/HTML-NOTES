@@ -1,0 +1,43 @@
+1. Introduction to HTML
+2. History of HTML
+   - Versions
+   - HTML4 vs HTML5
+3. Structure of HTML
+4. Comments
+5. Tags
+6. Elements
+   - Block Elements
+   - Inline Elements
+7. Heading Tags
+8. Paragraph Tag
+9. Formatting Tags
+10. Lists
+    - Ordered List
+    - Unordered List
+    - Description List
+11. Attributes
+12. Anchor Tag
+13. Media Tags
+    - Image
+    - Audio
+    - Video
+14. Tables
+15. Forms
+    - Input Types
+    - Form Attributes
+16. Iframe
+17. Semantic Tags
+18. Meta Tags
+    - charset
+    - viewport
+    - description
+    - keywords
+19. HTML Entities
+20. Additional Tags
+    - details
+    - summary
+    - progress
+    - meter
+    - datalist
+    - figure
+    - figcaption

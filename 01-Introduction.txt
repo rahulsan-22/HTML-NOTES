@@ -1,0 +1,25 @@
+//!INTRODUCTION:
+--> HTML stands for HyperText Markup Language.
+--> It is used to create the structure (skeleton) of a web page.
+--> HTML describes the content of a webpage using elements (tags).
+--> HTML is not a programming language; it is a Markup Language.
+--> The current version of HTML is HTML5.
+--> HTML files are saved with .html or .htm extension.
+--> HTML is case-insensitive, but writing tags in lowercase is the recommended practice.
+--> HTML alone cannot make a webpage attractive or interactive.
+     --> CSS is used for styling.
+     --> JavaScript is used for interactivity.
+
+//!Difference Between Programming Language and Markup Language
+
+//! Definition
+
+//*Programming Language
+-->A Programming Language is a language used to write instructions (code) that tell a computer what to do. 
+-->It can perform calculations, make decisions, and execute logic.
+Example: JavaScript,Java,Python,C,C++ etc..
+
+//*Markup Language
+-->A Markup Language is a language used to structure, organize, and display content on a webpage or document. 
+-->It does not contain programming logic.
+Example: HTML,XML,SVG etc...

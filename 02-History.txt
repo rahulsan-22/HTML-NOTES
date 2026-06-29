@@ -1,0 +1,30 @@
+//!HISTORY:
+--> HTML was invented by Tim Berners-Lee in 1991.
+--> HTML 1.0 was officially released in 1993 with basic features like headings, paragraphs, lists and hyperlinks.
+--> Over the years HTML evolved with several versions.
+--> HTML5 was released in 2014 and is the current standard used for developing modern websites.
+
+//!HTML Versions
+• HTML 1.0 (1993)
+• HTML 2.0 (1995)
+• HTML 3.2 (1997)
+• HTML 4.01 (1999)
+• HTML5 (2014 - Current Standard)
+
+//!HTML4 vs HTML5
+
+//*HTML4
+-->HTML4 (HyperText Markup Language 4.01) is the older version of HTML, released in 1999.
+--> It was mainly used to create and structure web pages but had limited support for multimedia and modern web applications.
+
+//*HTML5
+-->HTML5 is the latest major version of HTML, released in 2014 . 
+-->It introduced 
+    -semantic elements, 
+    -built-in support for audio/video, 
+    -Many new input types,
+    -Local Storage & Session Storage...
+
+//!NOTE:
+--> There is no official HTML6.
+--> HTML5 is continuously updated by WHATWG and W3C.
