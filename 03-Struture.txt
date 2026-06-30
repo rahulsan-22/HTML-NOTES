@@ -17,5 +17,3 @@
 <title>           --> Specifies the title shown on the browser tab.
 
 <body>            --> Contains all the visible content displayed on the webpage.
-
-
