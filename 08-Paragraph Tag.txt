@@ -1,0 +1,12 @@
+//!Paragraph Tag
+--> The <p> tag is used to define a paragraph.
+--> It is a paired tag.
+
+//*Syntax:
+<p>Content</p>
+
+//!VS Code Emmet Shortcuts
+lorem      → Generates random text
+lorem20    → Generates 20 random words
+lorem50    → Generates 50 random words
+lorem*5    → Generates 5 paragraphs

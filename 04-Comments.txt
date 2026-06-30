@@ -1,0 +1,10 @@
+//!Comments
+--> Comments are notes written inside the HTML code that are ignored by the browser and are not displayed on the webpage.
+--> They are mainly used to improve the readability and maintainability of the code.
+--> Comments help developers explain code or temporarily disable parts of the HTML.
+
+//*Syntax:
+<!-- This is a comment -->
+
+//*Shortcut:
+Ctrl + /

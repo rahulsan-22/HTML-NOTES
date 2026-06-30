@@ -1,0 +1,44 @@
+//!Elements
+--> An HTML element consists of an opening tag, content, and a closing tag.
+
+//*Syntax:
+<tagname> Content </tagname>
+
+//*Example:
+<h1>Welcome</h1>
+
+Opening Tag  : <h1>
+Content      : Welcome
+Closing Tag  : </h1>
+
+-->Entire thing is called an HTML Element.
+-->Some HTML elements do not have a closing tag. These are called empty (void) elements.
+
+//*Examples:
+<br>
+<hr>
+<img>
+<input>
+
+//!Types of Elements
+-->Based on how much horizontal space they occupy, HTML elements are classified into two types:
+
+//!1. Block-level Elements
+--> Always start on a new line.
+--> Occupy the full available width of their parent container by default.
+
+//*Examples:
+<div>
+<h1> to <h6>
+<p>
+<section>
+
+//!2. Inline Elements
+--> Do not start on a new line.
+--> Occupy only the width required by their content.
+
+//*Examples:
+<span>
+<a>
+<b>
+<i>

@@ -1,0 +1,17 @@
+//!Heading Tags
+--> Heading tags are used to define the headings and subheadings of a webpage.
+--> HTML provides six heading tags: <h1> to <h6>.
+--> All heading tags are paired tags.
+--> As we move from <h1> to <h6>, the default font size decreases.
+
+//!Default Browser Font Sizes
+h1 - 32px or 2em  (Largest)
+h2 - 24px or 1.5em 
+h3 - 18.72px or 1.17em 
+h4 - 16px or 1em 
+h5 - 13.28px or 0.83em 
+h6 - 10.72px or 0.67em (Smallest)
+
+//! Note:
+--> <h1> is the most important heading on a webpage.
+--> <h2> to <h6> are used for subheadings.
