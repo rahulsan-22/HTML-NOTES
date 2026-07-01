@@ -2,8 +2,6 @@
 --> Tags are predefined keywords enclosed within angular brackets (< >) that tell the browser how to structure or display content.
 
 //*Syntax:
-<tagname> Content </tagname>
-
 <tagname>      --> Opening Tag
 </tagname>     --> Closing Tag
 
@@ -15,7 +13,9 @@ HTML tags are classified into two types:
 //!Paired Tags
 --> Tags that have both an opening tag and a closing tag are called paired tags.
 //*Example:
-<html></html> , <head></head> , <body></body> etc...
+<html></html> 
+<head></head>
+<body></body> etc...
 
 //!Unpaired Tags
 --> Tags that contain only an opening tag and do not require a closing tag are called unpaired (or void) tags.
@@ -26,7 +26,7 @@ HTML tags are classified into two types:
 <img>
 <input>
 <meta>
-<link>
+<link> etc...
 
 //!Note:
 --> <!DOCTYPE html> is not an HTML tag, It is an HTML declaration.
