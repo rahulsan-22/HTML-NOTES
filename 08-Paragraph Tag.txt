@@ -8,5 +8,4 @@
 //!VS Code Emmet Shortcuts
 lorem      → Generates random text
 lorem20    → Generates 20 random words
-lorem50    → Generates 50 random words
 lorem*5    → Generates 5 paragraphs

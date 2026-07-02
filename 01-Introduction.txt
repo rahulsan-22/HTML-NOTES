@@ -1,7 +1,7 @@
 //!INTRODUCTION:
 --> HTML stands for HyperText Markup Language.
 --> It is used to create the structure (skeleton) of a web page.
---> HTML describes the content of a webpage using elements (tags).
+--> HTML describes the content of a webpage using elements or tags.
 --> HTML is not a programming language; it is a Markup Language.
 --> The current version of HTML is HTML5.
 --> HTML files are saved with .html or .htm extension.

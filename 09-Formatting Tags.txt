@@ -1,0 +1,103 @@
+//! Formatting Tags
+--> Formatting Tags are used to change the apperance of the text content.
+
+//!1. <b> (Bold)
+--> Displays the content in bold.
+--> It is used only for visual presentation.
+//*Example:
+<b>Hello</b>
+
+//!2. <strong>
+--> Displays the content in bold.
+--> Indicates that the content is important.
+--> It is a semantic tag.
+//*Example:
+<strong>Hello</strong>
+
+//!3. <i> (Italic)
+--> Displays the content in italic.
+--> It is used only for visual presentation.
+//*Example:
+<i>Hello</i>
+
+//!4. <em> (Emphasis)
+--> Displays the content in italic.
+--> Indicates emphasis or stress on the text
+--> It is a semantic tag.
+//*Example:
+<em>Hello</em>
+
+//!5. <u> (Underline)
+--> Used to underline the text.
+//*Example:
+<u>Hello</u>
+
+//!6. <ins> (Inserted Text)
+--> Represents inserted content.
+--> By default, browsers display it with an underline.
+//*Example:
+<ins>₹800</ins>
+
+//!7. <strike>
+--> Displays a line through the text.
+//*Example:
+<strike>₹100</strike>
+//*Note:
+--> The <strike> tag is deprecated in HTML5.
+--> It is recommended to use <del> or CSS instead.
+
+//!8. <del> (Deleted Text)
+--> Represents deleted content.
+--> Displays the content with a line through it.
+//*Example:
+<del>₹1000</del>
+
+//!9. <mark>
+--> Highlights the content.
+--> By default, browsers display it with a yellow background.
+--> Commonly used to highlight search results.
+//*Example:
+<mark>Hello</mark>
+
+//!10. <big>
+--> Displays the content with a larger font size than the default size.
+//*Example:
+<big>Hello</big>
+//*Note:
+--> The <big> tag is deprecated in HTML5.
+--> Use CSS (font-size) instead.
+
+//!11. <small>
+--> Displays the content with a smaller font size than the default size.
+--> Commonly used for copyright text, terms and conditions, and disclaimers.
+//*Example:
+<small>Hello</small>
+
+//!12. <sup> (Superscript)
+--> Displays the content slightly above the normal line.
+//*Example:
+x<sup>2</sup>
+10<sup>th</sup>
+
+//!13. <sub> (Subscript)
+--> Displays the content slightly below the normal line.
+//*Example:
+H<sub>2</sub>O
+CO<sub>2</sub>
+
+//!14. <code>
+--> Represents a piece of computer code.
+--> Browsers display it in a monospace font.
+//*Example:
+<code>console.log("Hello")</code>
+
+//!15. <pre>
+--> Displays preformatted text.
+--> Preserves spaces and line breaks exactly as written.
+//*Example:
+<pre>
+Hello
+     World
+</pre>
+
+
