@@ -1,0 +1,145 @@
+//! Lists
+--> Lists are used to group a set of related items together.
+
+//!Types
+HTML provides three types of lists:
+1. Ordered List (<ol>)
+2. Unordered List (<ul>)
+3. Description / Definition List (<dl>)
+
+//! 1. Ordered List (<ol>)
+--> An Ordered List is used to display items in a specific sequence.
+
+//!Tags Used:
+<ol> --> Ordered List
+<li> --> List Item
+
+//!Attributes:
+
+//*1. type
+--> Changes the numbering style.
+Values:
+1 (default)
+A
+a
+I
+i
+
+//*2. start
+--> Specifies the starting number or character.
+Note:
+--> The start attribute accepts only numeric values.
+
+3. reversed
+--> Displays the list in reverse order.
+
+//!Example:
+<ol type="A" start="4" reversed>
+    <li>Pavan</li>
+    <li>Monty</li>
+    <li>Rahul</li>
+    <li>Kavya</li>
+</ol>
+
+//!Output:
+D. Pavan
+C. Monty
+B. Rahul
+A. Kavya
+
+------------------------------------------------------------
+
+//! 2. Unordered List (<ul>)
+--> An Unordered List is used to display items without any specific sequence.
+
+//!Tags Used:
+<ul> --> Unordered List
+<li> --> List Item
+
+//!Attribute:
+
+//*1. type
+--> Specifies the bullet style.
+Values:
+disc (default)
+circle
+square
+none
+
+//!Example:
+<ul type="circle">
+    <li>Dairy Milk</li>
+    <li>KitKat</li>
+    <li>Munch</li>
+</ul>
+
+Output:
+○ Dairy Milk
+○ KitKat
+○ Munch
+
+//!Note:
+--> The type attribute of <ul> is deprecated in HTML5.
+--> It is recommended to use CSS (list-style-type) instead.
+
+------------------------------------------------------------
+//! 3. Description List (<dl>)
+--> A Description List is used to display terms along with their descriptions.
+
+//!Tags Used:
+<dl> --> Description List
+<dt> --> Description Term
+<dd> --> Description Details
+
+Example:
+<dl>
+    <dt>HTML</dt>
+    <dd>HyperText Markup Language</dd>
+    <dt>CSS</dt>
+    <dd>Cascading Style Sheets</dd>
+    <dt>JavaScript</dt>
+    <dd>Programming Language used to make webpages interactive.</dd>
+</dl>
+
+------------------------------------------------------------
+
+//! Nested List
+--> A Nested List is a list created inside another list.
+--> Both Ordered Lists (<ol>) and Unordered Lists (<ul>) can be nested inside each other.
+--> To create a nested list, place another <ol> or <ul> inside the <li> (List Item) tag.
+
+//! Points to Remember:
+-->Whenever there is a space inside list --> create a new list
+-->Whenever we are comming out of space --> come out of list
+
+//! Example:
+<ol>
+    <li>Frontend
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </li>
+    <li>Backend
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>Node.js</li>
+        </ul>
+    </li>
+</ol>
+
+//!Output:
+1. Frontend
+   • HTML
+   • CSS
+   • JavaScript
+2. Backend
+   • Java
+   • Python
+   • Node.js
+
+------------------------------------------------------------
+
+
