@@ -1,0 +1,57 @@
+//! Attributes
+--> Attributes are used to provide additional information about an HTML element.
+--> They are written in the form of name="value" pairs.
+--> Attributes are always written inside the opening tag.
+--> Multiple attributes can be specified in a single opening tag by separating them with spaces.
+
+Syntax:
+<tagname attribute="value">Content</tagname>
+
+Example:
+<ol type="1"></ol>
+
+------------------------------------------------------------
+//! Types of Attributes
+HTML attributes are classified into two types:
+1. Global (Core) Attributes
+2. Element-specific Attributes
+
+------------------------------------------------------------
+//! 1. Global (Core) Attributes
+--> Global attributes can be used with most HTML elements.
+//*Common Global Attributes:
+id
+class
+style
+title
+
+//*Example:
+<h1 id="heading" class="title" style="color:red;" title="HTML">
+    HyperText Markup Language
+</h1>
+
+//*Note:
+//! title:
+--> The title attribute is used to display a tooltip when the mouse pointer is placed over an element.
+
+//*Example:
+<h1 title="HTML">HyperText Markup Language</h1>
+
+------------------------------------------------------------
+//! 2. Element-specific Attributes
+--> These attributes can be used only with specific HTML elements.
+//*Examples:
+type
+start
+reversed
+href
+src
+alt
+target
+placeholder
+
+//*Example:
+<ol type="A" start="3">
+    <li>HTML</li>
+    <li>CSS</li>
+</ol>

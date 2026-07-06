@@ -1,0 +1,83 @@
+ //! Anchor Tag (<a>)
+--> The Anchor (<a>) tag is used to create hyperlinks.
+--> Hyperlinks are used to navigate from one webpage or resource to another.
+
+//!Syntax:
+<a href="path">Content</a>
+
+//*Example:
+<a href="https://www.google.com">Google</a>
+
+------------------------------------------------------------
+//! Attributes of Anchor Tag
+
+//*1. href (HyperText Reference)
+--> It specifies the destination URL or path where the hyperlink should navigate.
+--> The href attribute accepts two types of paths:
+1. Absolute Path
+2. Relative Path
+------------------------------------------------------------
+
+//! Absolute Path
+--> An Absolute Path is the complete URL of a webpage.
+--> It contains the protocol (https://), domain name, and resource path.
+
+//*Example:
+<a href="https://www.amazon.in">Amazon</a>
+
+------------------------------------------------------------
+
+//! Relative Path
+--> A Relative Path is used to navigate between files within the same project or website.
+--> It specifies the file name or file path.
+
+//*Example:
+<a href="./tags.html">Tags</a>
+
+------------------------------------------------------------
+
+//* 2. target
+--> The target attribute specifies where the linked document should be opened.
+
+Values:
+
+_self     --> Opens the linked page in the same tab. (Default)
+
+_blank    --> Opens the linked page in a new tab.
+
+Example:
+<a href="https://www.google.com" target="_blank">
+    Google
+</a>
+------------------------------------------------------------
+
+//! States of Anchor Tag
+1. Unvisited Link
+--> Default color: Blue
+
+2. Visited Link
+--> Default color: Purple
+
+3. Active Link
+--> Default color: Red
+
+Note:
+--> The default colors may vary depending on the browser or CSS styles.
+
+------------------------------------------------------------
+
+//! Additional Examples
+
+//! Email Link
+<a href="mailto:abc@gmail.com">
+    Send Email
+</a>
+
+------------------------------------------------------------
+
+//! Phone Link
+<a href="tel:9876543210">
+    Call Us
+</a>
+
+------------------------------------------------------------

@@ -106,7 +106,6 @@ Example:
 //! Nested List
 --> A Nested List is a list created inside another list.
 --> Both Ordered Lists (<ol>) and Unordered Lists (<ul>) can be nested inside each other.
---> To create a nested list, place another <ol> or <ul> inside the <li> (List Item) tag.
 
 //! Points to Remember:
 -->Whenever there is a space inside list --> create a new list
