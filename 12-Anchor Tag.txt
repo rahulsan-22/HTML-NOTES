@@ -45,7 +45,7 @@ _self     --> Opens the linked page in the same tab. (Default)
 
 _blank    --> Opens the linked page in a new tab.
 
-Example:
+//*Example:
 <a href="https://www.google.com" target="_blank">
     Google
 </a>
@@ -61,7 +61,7 @@ Example:
 3. Active Link
 --> Default color: Red
 
-Note:
+//*Note:
 --> The default colors may vary depending on the browser or CSS styles.
 
 ------------------------------------------------------------
@@ -81,3 +81,8 @@ Note:
 </a>
 
 ------------------------------------------------------------
+
+//! Download File
+<a href="./HeadingTags.html" download="Something">
+    <button>Download CV</button>
+</a>
