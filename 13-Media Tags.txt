@@ -1,0 +1,124 @@
+//! Media Tags
+--> Media tags are used to display multimedia content such as images, audio, and videos on a web page.
+HTML provides the following media tags:
+1. <img>
+2. <audio>
+3. <video>
+
+------------------------------------------------------------
+
+//! 1. Image Tag (<img>)
+--> The <img> tag is used to display images on a web page.
+--> It is an empty (void) element, so it does not require a closing tag.
+
+//*Syntax:
+<img src="" alt="">
+
+//!Attributes:
+
+//* 1. src
+--> Specifies the path or URL of the image.
+
+//* 2. alt
+--> Provides alternative text for the image.
+--> If the image cannot be loaded, the alternative text is displayed.
+--> It also improves accessibility for screen readers.
+
+//* 3. width
+--> Specifies the width of the image.
+
+//* 4. height
+--> Specifies the height of the image.
+
+//* 5. title
+--> Displays a tooltip when the mouse pointer is placed over the image.
+
+//!Example:
+<img
+src="./images/flower.jpg"
+alt="Flower Image"
+width="300"
+height="200"
+title="Beautiful Flower">
+------------------------------------------------------------
+
+//! 2. Audio Tag (<audio>)
+--> The <audio> tag is used to play audio files on a web page.
+
+//*Syntax:
+<audio src=""></audio>
+
+//!Attributes:
+
+//* 1. src
+--> Specifies the path or URL of the audio file.
+
+//* 2. controls
+--> Displays audio controls such as Play, Pause, Volume, and Seek.
+
+//* 3. autoplay
+--> Automatically plays the audio when the page loads.
+
+Note:
+--> Modern browsers usually allow autoplay only when the audio is muted.
+
+//* 4. loop
+--> Repeats the audio continuously.
+
+//* 5. muted
+--> Mutes the audio by default.
+
+//!Example:
+<audio
+src="./audio/song.mp3"
+controls
+loop
+autoplay
+muted>
+</audio>
+
+------------------------------------------------------------
+
+//! 3. Video Tag (<video>)
+--> The <video> tag is used to display videos on a web page.
+
+//*Syntax:
+<video src=""></video>
+
+//!Attributes:
+
+//* 1. src
+--> Specifies the path or URL of the video.
+
+//*2. controls
+--> Displays video controls such as Play, Pause, Volume, Fullscreen, and Seek.
+
+//* 3. autoplay
+--> Automatically plays the video when the page loads.
+
+Note:
+--> Modern browsers usually allow autoplay only when the video is muted.
+
+//* 4. loop
+--> Repeats the video continuously.
+
+//* 5. muted
+--> Mutes the video by default.
+
+//* 6. poster
+--> Displays a thumbnail image before the video starts playing.
+
+//* 7. width
+--> Specifies the width of the video.
+
+//* 8. height
+--> Specifies the height of the video.
+
+//!Example:
+<video
+src="./videos/demo.mp4"
+width="500"
+controls
+poster="./images/thumbnail.jpg">
+</video>
+
