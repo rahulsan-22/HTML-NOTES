@@ -1,0 +1,459 @@
+//! Forms
+--> Forms are used to collect data from the user.
+--> To create a form in HTML, we use the <form> tag.
+
+//!Syntax:
+<form action="" method="">
+    <!-- Form Elements -->
+</form>
+
+//!Attributes of Form Tag:
+
+//* 1. action
+--> Specifies where the form data should be sent after submission.
+
+//*2. method
+--> Specifies how the form data should be sent.
+
+Values:
+GET
+POST
+
+------------------------------------------------------------
+
+//! Tags Present Inside Form
+1. <label>
+2. <input>
+3. <select>
+4. <option>
+5. <fieldset>
+6. <legend>
+7. <textarea>
+
+------------------------------------------------------------
+
+//! Label Tag
+--> The <label> tag is used to provide a label (name) for an input field.
+--> It improves accessibility and allows users to focus the input field by clicking the label.
+
+Syntax:
+<label for=""></label>
+
+Example:
+<label for="fname">First Name:</label>
+<input type="text" id="fname">
+
+------------------------------------------------------------
+
+//! Input Tag
+--> The <input> tag is used to create input fields.
+
+Syntax:
+<input type="">
+
+------------------------------------------------------------
+
+//! Select Tag
+--> The <select> tag is used to create a drop-down list.
+
+Syntax:
+<select name="" id="">
+</select>
+
+------------------------------------------------------------
+
+//! Option Tag
+--> The <option> tag is used to define options inside a drop-down list.
+
+Syntax:
+<option value=""></option>
+
+Example:
+<form>
+<label for="city">Select City:</label>
+<select id="city" name="city">
+      <option value="" hidden>--Choose City--</option>
+      <option value="Hyderabad">Hyderabad</option>
+      <option value="Chennai">Chennai</option>
+      <option value="Bangalore">Bangalore</option>
+      <option value="Mumbai">Mumbai</option>
+</select>
+</form>
+
+------------------------------------------------------------
+
+//! Fieldset Tag
+--> The <fieldset> tag is used to group related form elements together.
+--> By default, it displays a border around the grouped elements.
+
+Syntax:
+<fieldset></fieldset>
+
+------------------------------------------------------------
+
+//! Legend Tag
+--> The <legend> tag is used to provide a title for the fieldset.
+
+Syntax:
+<legend></legend>
+
+Example:
+<fieldset>
+<legend>Student Details</legend>
+<label>Name:</label>
+<input type="text">
+</fieldset>
+
+------------------------------------------------------------
+
+//! Textarea Tag
+--> The <textarea> tag is used to create a multi-line text input field.
+--> It is commonly used for comments, feedback, messages, and addresses.
+
+Attributes:
+rows
+--> Specifies the height of the textarea.
+
+cols
+--> Specifies the width of the textarea.
+
+Syntax:
+<textarea rows="5" cols="30"></textarea>
+
+//! Input Types
+--> The type attribute specifies the type of input field.
+
+//*1. text
+--> Used to enter single-line text.
+
+Example:
+<input type="text">
+
+------------------------------------------------------------
+
+//*2. email
+--> Used to enter an email address.
+
+Example:
+<input type="email">
+
+------------------------------------------------------------
+
+//*3. password
+--> Used to enter passwords.
+--> The entered characters are hidden.
+
+Example:
+<input type="password">
+
+------------------------------------------------------------
+
+//*4. number
+--> Used to enter numeric values.
+
+Example:
+<input type="number">
+
+------------------------------------------------------------
+
+//*5. tel
+--> Used to enter a telephone number.
+
+Example:
+<input type="tel">
+
+------------------------------------------------------------
+
+//*6. radio
+--> Used to create radio buttons.
+--> Allows selecting only one option from a group.
+
+Example:
+<input type="radio" name="gender">
+
+------------------------------------------------------------
+
+//*7. checkbox
+--> Used to create checkboxes.
+--> Allows selecting multiple options.
+
+Example:
+<input type="checkbox">
+
+------------------------------------------------------------
+
+//*8. submit
+--> Creates a button used to submit the form.
+
+Example:
+<input type="submit">
+
+------------------------------------------------------------
+
+//*9. reset
+--> Resets all form fields to their default values.
+
+Example:
+<input type="reset">
+
+------------------------------------------------------------
+
+//*10. button
+--> Creates a clickable button.
+
+Example:
+<input type="button" value="Click Me">
+
+------------------------------------------------------------
+
+//*11. date
+--> Displays a date picker.
+
+Example:
+<input type="date">
+
+------------------------------------------------------------
+
+//*12. datetime-local
+--> Used to select date and time.
+
+Example:
+<input type="datetime-local">
+
+------------------------------------------------------------
+
+//*13. month
+--> Used to select month and year.
+
+Example:
+<input type="month">
+
+------------------------------------------------------------
+
+//*14. week
+--> Used to select a week.
+
+Example:
+<input type="week">
+
+------------------------------------------------------------
+
+//*15. time
+--> Used to select time.
+
+Example:
+<input type="time">
+
+------------------------------------------------------------
+
+//*16. file
+--> Used to upload files.
+
+Example:
+<input type="file">
+
+------------------------------------------------------------
+
+//*17. color
+--> Displays a color picker.
+
+Example:
+<input type="color">
+
+------------------------------------------------------------
+
+//*18. range
+--> Displays a slider.
+
+Example:
+<input
+type="range"
+min="0"
+max="100">
+
+------------------------------------------------------------
+
+//*19. search
+--> Used to enter search text.
+
+Example:
+<input type="search">
+
+------------------------------------------------------------
+
+//*20. url
+--> Used to enter website URLs.
+
+Example:
+<input type="url">
+
+//! Attributes of Input Tag
+
+1. type
+
+--> Specifies the type of input field.
+
+------------------------------------------------------------
+
+2. id & for
+
+--> Used to establish a connection between the label and input field.
+
+Note:
+
+--> The values of id and for must be the same.
+
+Example:
+
+<label for="fname">First Name</label>
+
+<input type="text" id="fname">
+
+------------------------------------------------------------
+
+3. name
+
+--> Used as the key while submitting form data to the backend.
+
+Example:
+
+<input
+type="text"
+name="username">
+
+------------------------------------------------------------
+
+4. value
+
+--> Specifies the value of an input field.
+
+--> For radio buttons and checkboxes, it specifies the value sent to the backend.
+
+Example:
+
+<input
+type="radio"
+value="Male">
+
+------------------------------------------------------------
+
+5. placeholder
+
+--> Displays a hint inside the input field.
+
+Example:
+
+<input
+type="text"
+placeholder="Enter your name">
+
+------------------------------------------------------------
+
+//! Form Validation Attributes
+
+1. minlength
+
+--> Specifies the minimum number of characters.
+
+------------------------------------------------------------
+
+2. maxlength
+
+--> Specifies the maximum number of characters.
+
+Note:
+
+--> minlength and maxlength do not work for number input.
+
+------------------------------------------------------------
+
+3. min
+
+--> Specifies the minimum numeric value.
+
+------------------------------------------------------------
+
+4. max
+
+--> Specifies the maximum numeric value.
+
+------------------------------------------------------------
+
+5. required
+
+--> Makes the field mandatory.
+
+------------------------------------------------------------
+
+6. autofocus
+
+--> Automatically focuses the input field when the page loads.
+
+Note:
+
+--> Only one element should have autofocus.
+
+------------------------------------------------------------
+
+7. checked
+
+--> Selects a radio button or checkbox by default.
+
+------------------------------------------------------------
+
+8. selected
+
+--> Selects an option by default in a drop-down list.
+
+------------------------------------------------------------
+
+9. readonly
+
+--> User can view and copy the value but cannot modify it.
+
+------------------------------------------------------------
+
+10. disabled
+
+--> User cannot interact with the field.
+
+--> Disabled values are not submitted to the backend.
+
+------------------------------------------------------------
+
+11. multiple
+
+--> Allows selecting multiple files or email addresses.
+
+------------------------------------------------------------
+
+12. accept
+
+--> Restricts file upload types.
+
+Example:
+
+accept=".jpg,.png,.pdf"
+
+------------------------------------------------------------
+
+13. pattern
+
+--> Validates input using Regular Expressions.
+
+------------------------------------------------------------
+
+14. step
+
+--> Specifies valid intervals for numeric input.
+
+------------------------------------------------------------
+
+15. autocomplete
+
+--> Enables or disables browser suggestions.
+
+Values:
+
+on
+off

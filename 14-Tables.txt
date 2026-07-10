@@ -121,28 +121,41 @@ Note:
 ------------------------------------------------------------
 
 //! Example
-<table border="1" cellspacing="0" cellpadding="5">
-    <caption>Number Table</caption>
-    <tr>
-        <td colspan="4">
-            <center>1</center>
-        </td>
-    </tr>
-    <tr>
-        <td rowspan="2" align="center">2</td>
-        <td rowspan="3">3</td>
-        <td>4</td>
-        <td>5</td>
-    </tr>
-    <tr>
-        <td colspan="2">6</td>
-    </tr>
-
-    <tr>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-    </tr>
-
+<table border="1" cellspacing="10" cellpadding="10" align="center">
+    <caption>Qspiders 🕷️</caption>
+    <thead>
+      <tr>
+        <th>Subjects</th>
+        <th colspan="3">Trainers</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Core Java</td>
+        <td>Pavan</td>
+        <td>Kavya</td>
+        <td rowspan="2">Praveen</td>
+      </tr>
+      <tr>
+        <td>J.Programming</td>
+        <td colspan="2" align="center">Ajit</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td rowspan="2">Monty</td>
+        <td>Krishnaveni</td>
+        <td rowspan="2">Deva</td>
+      </tr>
+      <tr>
+        <td>P.Programming</td>
+        <td align="center">-</td>
+      </tr>
+      <tr>
+        <td>Sql</td>
+        <td>Yasin</td>
+        <td>Ravi Sir</td>
+        <td>Pradeep</td>
+      </tr>
+    </tbody>
 </table>
 
