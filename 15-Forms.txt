@@ -198,15 +198,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*10. button
---> Creates a clickable button.
-
-Example:
-<input type="button" value="Click Me">
-
-------------------------------------------------------------
-
-//*11. date
+//*10. date
 --> Displays a date picker.
 
 Example:
@@ -214,7 +206,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*12. datetime-local
+//*11. datetime-local
 --> Used to select date and time.
 
 Example:
@@ -222,7 +214,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*13. month
+//*12. month
 --> Used to select month and year.
 
 Example:
@@ -230,7 +222,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*14. week
+//*13. week
 --> Used to select a week.
 
 Example:
@@ -238,7 +230,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*15. time
+//*14. time
 --> Used to select time.
 
 Example:
@@ -246,7 +238,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*16. file
+//*15. file
 --> Used to upload files.
 
 Example:
@@ -254,7 +246,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*17. color
+//*16. color
 --> Displays a color picker.
 
 Example:
@@ -262,7 +254,7 @@ Example:
 
 ------------------------------------------------------------
 
-//*18. range
+//*17. range
 --> Displays a slider.
 
 Example:
@@ -273,76 +265,50 @@ max="100">
 
 ------------------------------------------------------------
 
-//*19. search
---> Used to enter search text.
-
-Example:
-<input type="search">
-
-------------------------------------------------------------
-
-//*20. url
---> Used to enter website URLs.
-
-Example:
-<input type="url">
-
 //! Attributes of Input Tag
 
-1. type
-
+//* 1. type
 --> Specifies the type of input field.
 
 ------------------------------------------------------------
 
-2. id & for
-
+//* 2. id & for
 --> Used to establish a connection between the label and input field.
 
 Note:
-
 --> The values of id and for must be the same.
 
 Example:
-
 <label for="fname">First Name</label>
-
 <input type="text" id="fname">
 
 ------------------------------------------------------------
 
-3. name
-
+//*3. name
 --> Used as the key while submitting form data to the backend.
 
 Example:
-
 <input
 type="text"
 name="username">
 
 ------------------------------------------------------------
 
-4. value
-
+//*4. value
 --> Specifies the value of an input field.
-
 --> For radio buttons and checkboxes, it specifies the value sent to the backend.
 
 Example:
-
 <input
 type="radio"
 value="Male">
 
 ------------------------------------------------------------
 
-5. placeholder
-
+//*5. placeholder
 --> Displays a hint inside the input field.
 
 Example:
-
 <input
 type="text"
 placeholder="Enter your name">
@@ -351,109 +317,84 @@ placeholder="Enter your name">
 
 //! Form Validation Attributes
 
-1. minlength
-
+//*1. minlength
 --> Specifies the minimum number of characters.
 
 ------------------------------------------------------------
 
-2. maxlength
-
+//*2. maxlength
 --> Specifies the maximum number of characters.
 
 Note:
-
 --> minlength and maxlength do not work for number input.
 
 ------------------------------------------------------------
 
-3. min
-
+//*3. min
 --> Specifies the minimum numeric value.
 
 ------------------------------------------------------------
 
-4. max
-
+//*4. max
 --> Specifies the maximum numeric value.
 
 ------------------------------------------------------------
 
-5. required
-
+//*5. required
 --> Makes the field mandatory.
 
 ------------------------------------------------------------
 
-6. autofocus
-
+//*6. autofocus
 --> Automatically focuses the input field when the page loads.
 
 Note:
-
 --> Only one element should have autofocus.
 
 ------------------------------------------------------------
 
-7. checked
-
+//*7. checked
 --> Selects a radio button or checkbox by default.
 
 ------------------------------------------------------------
 
-8. selected
-
+//*8. selected
 --> Selects an option by default in a drop-down list.
 
 ------------------------------------------------------------
 
-9. readonly
-
+//*9. readonly
 --> User can view and copy the value but cannot modify it.
 
 ------------------------------------------------------------
 
-10. disabled
-
+//*10. disabled
 --> User cannot interact with the field.
-
 --> Disabled values are not submitted to the backend.
 
 ------------------------------------------------------------
 
-11. multiple
-
+//*11. multiple
 --> Allows selecting multiple files or email addresses.
 
 ------------------------------------------------------------
 
-12. accept
-
+//*12. accept
 --> Restricts file upload types.
 
 Example:
-
 accept=".jpg,.png,.pdf"
 
 ------------------------------------------------------------
 
-13. pattern
-
---> Validates input using Regular Expressions.
-
-------------------------------------------------------------
-
-14. step
-
+//*13. step
 --> Specifies valid intervals for numeric input.
 
 ------------------------------------------------------------
 
-15. autocomplete
-
+//*14. autocomplete
 --> Enables or disables browser suggestions.
 
 Values:
-
 on
 off
