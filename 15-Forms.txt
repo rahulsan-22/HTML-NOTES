@@ -16,8 +16,8 @@
 --> Specifies how the form data should be sent.
 
 Values:
-GET
-POST
+GET - The GET method sends the form data through the URL as query parameters.
+POST - The POST method sends the form data inside the HTTP request body and data is not visible in the URL.
 
 ------------------------------------------------------------
 
@@ -389,12 +389,3 @@ accept=".jpg,.png,.pdf"
 
 //*13. step
 --> Specifies valid intervals for numeric input.
-
-------------------------------------------------------------
-
-//*14. autocomplete
---> Enables or disables browser suggestions.
-
-Values:
-on
-off
