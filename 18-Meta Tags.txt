@@ -1,0 +1,79 @@
+//! Meta Tags
+--> Meta tags provide metadata (information) about an HTML document.
+--> They are written inside the <head> section of an HTML document.
+--> Meta tags are not displayed on the webpage.
+--> They provide information to browsers, search engines, and other web services.
+
+//!Syntax:
+<meta name="name" content="value">
+
+------------------------------------------------------------
+
+//! Common Meta Tags
+
+//! 1. charset
+--> The charset attribute specifies the character encoding of the HTML document.
+--> UTF-8 is the most commonly used character encoding because it supports almost all languages and special characters.
+-->Character Encoding is a method of converting characters (letters, numbers, symbols, and emojis) into a format that a computer can understand and display correctly.
+
+Syntax:
+<meta charset="UTF-8">
+
+------------------------------------------------------------
+
+//! 2. viewport
+--> The viewport meta tag controls how a webpage is displayed on different devices such as mobile phones, tablets, and desktops.
+--> It helps in creating responsive web pages.
+
+Syntax:
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+Explanation:
+width=device-width
+--> Sets the width of the webpage equal to the width of the device.
+
+initial-scale=1.0
+--> Sets the initial zoom level to 100%.
+
+------------------------------------------------------------
+
+//!3. description
+--> Provides a brief description of the webpage.
+--> Search engines may display this description in search results.
+--> It helps improve SEO (Search Engine Optimization).
+
+Syntax:
+<meta
+name="description"
+content="Learn HTML, CSS, JavaScript, and React with easy tutorials.">
+
+------------------------------------------------------------
+
+//!4. keywords
+--> Specifies keywords related to the content of the webpage.
+--> Earlier, search engines used these keywords for indexing webpages.
+--> Modern search engines like Google give little or no importance to this tag for ranking pages.
+
+Syntax:
+<meta
+name="keywords"
+content="HTML, CSS, JavaScript, React, Web Development">
+
+------------------------------------------------------------
+
+//! Complete Example
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn HTML, CSS, JavaScript, and React with easy tutorials.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Web Development">
+    <title>Meta Tags Example</title>
+</head>
+<body>
+    <h1>Welcome to HTML</h1>
+</body>
+</html>

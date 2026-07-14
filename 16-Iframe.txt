@@ -1,0 +1,173 @@
+//! IFrame (Inline Frame)
+--> The <iframe> tag is used to embed another webpage or external resource inside the current webpage.
+--> It allows us to display another HTML page, website, PDF, Google Maps, YouTube videos, etc., within our webpage.
+--> It is a paired tag.
+
+//!Syntax:
+<iframe src=""></iframe>
+
+------------------------------------------------------------
+
+//! Attributes of IFrame
+
+//!1. src
+--> Specifies the path or URL of the webpage or resource to be displayed inside the iframe.
+
+//*Example:
+<iframe src="./about.html"></iframe>
+
+------------------------------------------------------------
+
+//!2. width
+--> Specifies the width of the iframe.
+
+//*Example:
+<iframe
+src="./about.html"
+width="500">
+</iframe>
+
+------------------------------------------------------------
+
+//!3. height
+--> Specifies the height of the iframe.
+
+//*Example:
+<iframe
+src="./about.html"
+height="300">
+</iframe>
+
+------------------------------------------------------------
+
+//!4. title
+--> Provides a title for the iframe.
+--> Improves accessibility for screen readers.
+
+//*Example:
+<iframe
+src="./about.html"
+title="About Page">
+</iframe>
+
+------------------------------------------------------------
+
+//!5. loading
+--> Specifies how the iframe should be loaded.
+
+Values:
+eager  --> Loads immediately.
+lazy   --> Loads only when the iframe comes near the viewport.
+
+//*Example:
+<iframe
+src="./about.html"
+loading="lazy">
+</iframe>
+
+------------------------------------------------------------
+
+//!6. frameborder
+--> The frameborder attribute is used to specify whether a border should be displayed around the iframe.
+
+Values:
+0 --> Removes the border.
+1 --> Displays the border.
+
+Example:
+<iframe
+src="./home.html"
+width="500"
+height="300"
+frameborder="1">
+</iframe>
+
+//! Display Local HTML Page
+
+Example:
+<iframe
+src="./home.html"
+width="500"
+height="300">
+</iframe>
+
+------------------------------------------------------------
+
+//! Display External Website
+
+Example:
+<iframe
+src="https://www.wikipedia.org"
+width="700"
+height="400">
+</iframe>
+
+Note:
+--> Many websites do not allow themselves to be displayed inside an iframe due to security reasons.
+
+Example:
+Google
+Facebook
+Instagram
+ChatGPT
+
+These websites block embedding using security headers.
+
+------------------------------------------------------------
+
+//! Display YouTube Video
+
+Example:
+
+<iframe
+width="560"
+height="315"
+src="https://www.youtube.com/embed/VIDEO_ID"
+title="YouTube Video"
+allowfullscreen>
+</iframe>
+
+------------------------------------------------------------
+
+//! Display Google Maps
+
+Example:
+
+<iframe
+src="Google Maps Embed URL"
+width="600"
+height="450"
+loading="lazy">
+</iframe>
+
+------------------------------------------------------------
+
+//! Display PDF
+
+Example:
+
+<iframe
+src="./HTML_Notes.pdf"
+width="700"
+height="500">
+</iframe>
+
+------------------------------------------------------------
+
+//! Hyperlink with IFrame
+--> An anchor tag can open a webpage inside an iframe.
+
+Example:
+
+<a href="./about.html" target="frame1">
+    About
+</a>
+<br><br>
+
+<iframe
+name="frame1"
+width="600"
+height="300">
+</iframe>
+
+------------------------------------------------------------

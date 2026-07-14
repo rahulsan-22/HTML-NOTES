@@ -1,0 +1,31 @@
+//! Semantic Tags
+--> Semantic tags are HTML tags that describe the meaning and purpose of the content they contain.
+--> They make the structure of a webpage more meaningful and easier to understand for developers, browsers, search engines, and screen readers.
+--> Semantic tags improve code readability, accessibility, and Search Engine Optimization (SEO).
+
+------------------------------------------------------------
+
+//! Semantic vs Non-Semantic Tags
+
+//!Semantic Tags
+--> Describe the meaning of the content.
+
+//*Examples:
+<header>
+<nav>
+<main>
+<section>
+<article>
+<aside>
+<footer>
+
+------------------------------------------------------------
+
+//!Non-Semantic Tags
+--> Do not describe the meaning of the content.
+
+Examples:
+<div>
+<span>
+
+------------------------------------------------------------
