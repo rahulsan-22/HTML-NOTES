@@ -1,0 +1,193 @@
+//! HTML Entities
+--> HTML Entities are special codes used to display reserved characters, special symbols, and characters that cannot be typed directly in HTML.
+--> An HTML Entity starts with an ampersand (&) and ends with a semicolon (;).
+------------------------------------------------------------
+//!Syntax:
+&entity_name;
+
+or
+
+&#entity_number;
+
+------------------------------------------------------------
+
+//! Reserved Character Entities
+
+1. Less Than (<)
+
+Entity:
+&lt;
+
+Output:
+<
+
+------------------------------------------------------------ 
+
+2. Greater Than (>)
+
+Entity:
+&gt;
+
+Output:
+>
+
+------------------------------------------------------------
+
+3. Ampersand (&)
+
+Entity:
+&amp;
+
+Output:
+&
+
+------------------------------------------------------------
+
+4. Double Quotes (")
+
+Entity:
+&quot;
+
+Output:
+"
+
+------------------------------------------------------------
+
+5. Single Quote (')
+
+Entity:
+&apos;
+
+Output:
+'
+
+------------------------------------------------------------
+
+//! Space Entity
+
+&nbsp;
+
+--> Stands for Non-Breaking Space.
+--> It is used to insert an extra space between words.
+
+Example:
+Hello&nbsp;&nbsp;&nbsp;World
+
+Output:
+Hello     World
+
+------------------------------------------------------------
+
+//! Currency Symbol Entities
+
+&#8377; 
+
+Output:
+₹
+
+------------------------------------------------------------
+
+&dollar;
+
+Output:
+$
+
+------------------------------------------------------------
+
+&euro;
+
+Output:
+€
+
+------------------------------------------------------------
+
+&pound;
+
+Output:
+£
+
+------------------------------------------------------------
+
+&yen;
+
+Output:
+¥
+
+------------------------------------------------------------
+
+//! Copyright & Trademark Entities
+
+&copy;
+
+Output:
+©
+
+------------------------------------------------------------
+
+&reg;
+
+Output:
+®
+
+------------------------------------------------------------
+
+&trade;
+
+Output:
+™
+
+------------------------------------------------------------
+
+//! Mathematical Symbol Entities
+
+&times;
+
+Output:
+×
+
+------------------------------------------------------------
+
+&divide;
+
+Output:
+÷
+
+------------------------------------------------------------
+
+&le;
+
+Output:
+≤
+
+------------------------------------------------------------
+
+&ge;
+
+Output:
+≥
+
+------------------------------------------------------------
+
+//! Example
+
+<p>
+5 &lt; 10
+</p>
+
+<p>
+10 &gt; 5
+</p>
+
+<p>
+Pavan &amp; Monty
+</p>
+
+<p>
+Price: &#8377;499
+</p>
+
+<p>
+Copyright &copy; 2026
+</p>
+
+------------------------------------------------------------
