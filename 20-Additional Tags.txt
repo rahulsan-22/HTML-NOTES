@@ -1,0 +1,157 @@
+//! Additional HTML Tags
+--> HTML provides several additional tags to improve user experience and organize content effectively.
+------------------------------------------------------------
+
+//! 1. <details>
+--> The <details> tag is used to create collapsible (expandable) content.
+--> By default, the content remains hidden until the user clicks on it.
+
+//!Syntax:
+<details></details>
+
+//!Example:
+<details>
+  <summary>Click Here</summary>
+  <p>HTML stands for HyperText Markup Language.</p>
+</details>
+
+------------------------------------------------------------
+
+//! 2. <summary>
+--> The <summary> tag specifies the visible heading for the <details> element.
+--> Clicking on the summary expands or collapses the hidden content.
+
+//!Syntax:
+<summary></summary>
+
+//!Example:
+<details>
+<summary>View Details</summary>
+<p>This is hidden content.</p>
+</details>
+
+------------------------------------------------------------
+
+//! 3. <progress>
+--> The <progress> tag represents the progress of a task.
+--> It is commonly used to display download progress, upload progress, or task completion.
+
+//!Attributes:
+value --> Current progress value.
+max --> Maximum progress value.
+
+//!Syntax:
+<progress value="" max=""></progress>
+
+Example:
+<progress value="60" max="100"></progress>
+
+------------------------------------------------------------
+
+//! 4. <meter>
+--> The <meter> tag represents a value within a known range.
+--> It is commonly used to display battery level, disk usage, signal strength, or exam score.
+
+//!Attributes:
+value --> Current value.
+min --> Minimum value.
+max --> Maximum value.
+
+//!Syntax:
+<meter value="" min="" max=""></meter>
+
+//!Example:
+<meter value="75" min="0" max="100"></meter>
+
+------------------------------------------------------------
+
+//! Difference between <progress> and <meter>
+<progress>
+--> Represents the progress of an ongoing task.
+
+Example:
+Downloading a file.
+
+------------------------------------------------
+
+<meter>
+--> Represents a measurement or value within a fixed range.
+
+Example:
+Battery percentage.
+
+------------------------------------------------------------
+
+//! 5. <datalist>
+--> The <datalist> tag provides predefined suggestions for an input field.
+--> The user can either select a suggestion or enter a new value.
+--> It is used together with the <input> tag.
+
+//!Syntax:
+<datalist id=""></datalist>
+
+//!Example:
+<label for="city">City:</label>
+<input list="cities" id="city">
+<datalist id="cities">
+    <option value="Hyderabad">
+    <option value="Bangalore">
+    <option value="Chennai">
+    <option value="Mumbai">
+</datalist>
+
+------------------------------------------------------------
+
+//! 6. <figure>
+--> The <figure> tag is used to group self-contained content such as images, diagrams, charts, or code snippets.
+
+//!Syntax:
+<figure></figure>
+
+//!Example:
+<figure>
+ <img src="flower.jpg" alt="Flower">
+ <figcaption>Beautiful Flower</figcaption>
+</figure>
+
+------------------------------------------------------------
+
+//! 7. <figcaption>
+--> The <figcaption> tag provides a caption for the content inside the <figure> element.
+--> It is usually placed as the first or last child of the <figure> element.
+
+//!Syntax:
+<figcaption></figcaption>
+
+//!Example:
+<figure>
+  <img src="flower.jpg" alt="Flower">
+  <figcaption>Beautiful Flower</figcaption>
+</figure>
+
+------------------------------------------------------------
+
+//! 8. <optgroup>
+--> The <optgroup> tag is used to group related options inside a drop-down list.
+--> It improves the readability and organization of long option lists.
+
+//!Attribute:
+label --> Specifies the heading of the option group.
+
+//!Syntax:
+<optgroup label=""></optgroup>
+
+//!Example:
+<label>Select Course:</label>
+<select>
+  <optgroup label="Frontend">
+   <option>HTML</option>   
+   <option>CSS</option>   
+   <option>JavaScript</option>
+  </optgroup>
+  <optgroup label="Backend">
+    <option>Java</option>
+    <option>Python</option>
+    <option>Node.js</option>
+  </optgroup>
+</select>
