@@ -30,7 +30,7 @@ i
 Note:
 --> The start attribute accepts only numeric values.
 
-3. reversed
+//*3. reversed
 --> Displays the list in reverse order.
 
 //!Example:

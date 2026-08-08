@@ -5,7 +5,7 @@
 --> HTML is not a programming language; it is a Markup Language.
 --> The current version of HTML is HTML5.
 --> HTML files are saved with .html or .htm extension.
---> HTML is case-insensitive, but writing tags in lowercase is the recommended practice.
+--> HTML is not case-sensitive, but writing tags in lowercase is the recommended practice.
 --> HTML alone cannot make a webpage attractive or interactive.
      --> CSS is used for styling.
      --> JavaScript is used for interactivity.

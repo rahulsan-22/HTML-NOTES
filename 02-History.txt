@@ -1,5 +1,5 @@
 //!HISTORY:
---> HTML was invented by Tim Berners-Lee in 1991.
+--> HTML was developed by Tim Berners-Lee in 1991.
 --> HTML 1.0 was officially released in 1993 with basic features like headings, paragraphs, lists and hyperlinks.
 --> Over the years HTML evolved with several versions.
 --> HTML5 was released in 2014 and is the current standard used for developing modern websites.
